@@ -63,7 +63,7 @@ class Validator extends \yii\validators\Validator {
     	$i = 0;
     	$chk=0;
     	while ( $i < 10 ) {
-    		$chk += $value [$i] * (10 - $i);
+    		$chk += intval($value [$i]) * (10 - $i);
     		$i ++;
     	}
     	if ($i != 10) {
@@ -72,11 +72,11 @@ class Validator extends \yii\validators\Validator {
     				[ ]
     		];
     	}
-    	$chk = ($chk - $value [9]) % 11;
+    	$chk = ($chk - intval($value [9])) % 11;
     	if ($chk >= 2) {
     		$chk = 11 - $chk;
     	}
-    	if ($chk !== $value [9]) {
+    	if ($chk !== intval($value [9])) {
     		return [
     				$this->message,
     				[ ]
