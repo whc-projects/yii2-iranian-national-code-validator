@@ -1,0 +1,19 @@
+{
+    "name": "mohammadhosain/yii2-iranian-national-code-validator",
+    "description": "Iranian national code validator for Yii2",
+    "keywords": [
+        "Iranian national code", "Yii2 validator"
+    ],
+    "authors": [
+        {
+            "name": "Mohammad Hosain",
+            "email": "mohammad.hosain@chmail.ir"
+        }
+    ],
+    "autoload": {
+		"psr-4": {
+			"mohammadhosain\\yii2IranianNationalCodeValidator\\": ""
+		}
+	},
+    "license": "LGPL"
+}
