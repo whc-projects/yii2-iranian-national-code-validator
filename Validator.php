@@ -82,7 +82,7 @@ class Validator extends \yii\validators\Validator {
     public function clientValidateAttribute($model, $attribute, $view) {
         $message = Yii::$app->getI18n()->format($this->message, ['attribute' => $model->getAttributeLabel($attribute)], Yii::$app->language);
         $message = json_encode($message, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
-        return <<<JS
+        $js= <<<JS
 myreg=new RegExp('{$this->pattern}');
 if(!myreg.exec(value)){
 	messages.push($message);
