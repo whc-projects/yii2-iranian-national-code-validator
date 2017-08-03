@@ -2,7 +2,7 @@
 
 // in the name of Allah(God)
 
-namespace mohammadhosain\yii2IranianNationalCodeValidator;
+namespace mhfeizi\yii2IranianNationalCodeValidator;
 
 use Yii;
 
@@ -10,7 +10,7 @@ use Yii;
  * 
  * Iranian national code validator for Yii2.
  * 
- * @author mohammad hosain <mohammad.hosain@chmail.ir>
+ * @author mohammad hosain feizi <mohammad.hosain@chmail.ir>
  * @version 0.1
  * 
  * 
@@ -24,7 +24,7 @@ class Validator extends \yii\validators\Validator {
             Yii::$app->getI18n()->translations['iranian-national-code-validator'] = [
                 'class' => \yii\i18n\PhpMessageSource::className(),
                 'sourceLanguage' => 'en-US',
-                'basePath' => '@vendor/mohammadhosain/yii2-iranian-national-code-validator/messages',
+                'basePath' => '@vendor/mhfeizi/yii2-iranian-national-code-validator/messages',
             ];
             $this->message = Yii::t('iranian-national-code-validator', '{attribute} is not valid iranian national code.');
         }
