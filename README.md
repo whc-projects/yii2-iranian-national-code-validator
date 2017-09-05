@@ -1,9 +1,7 @@
-in the name of Allah(God)
+# Yii2 Iranian national code Validator
 
-#Yii2 Iranian national code Validator
-
-###Email
+### Email
 mohammad.hosain@chmail.ir
 
-###License
+### License
 this project licensed under LGPL.
