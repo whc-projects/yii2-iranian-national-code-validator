@@ -12,7 +12,7 @@
     ],
     "autoload": {
 		"psr-4": {
-			"whc-projects\\yii2IranianNationalCodeValidator\\": ""
+			"whc\\yii2IranianNationalCodeValidator\\": ""
 		}
 	},
     "license": "LGPL"
