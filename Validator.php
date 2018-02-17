@@ -2,7 +2,7 @@
 
 // in the name of Allah(God)
 
-namespace mhfeizi\yii2IranianNationalCodeValidator;
+namespace whc\yii2IranianNationalCodeValidator;
 
 use Yii;
 
