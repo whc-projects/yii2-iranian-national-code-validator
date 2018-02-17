@@ -1,18 +1,18 @@
 {
-    "name": "mhfeizi/yii2-iranian-national-code-validator",
+    "name": "whc-projects/yii2-iranian-national-code-validator",
     "description": "Iranian national code validator for Yii2",
     "keywords": [
         "Iranian national code", "Yii2 validator"
     ],
     "authors": [
         {
-            "name": "Mohammad Hosain Feizi",
-            "email": "mohammad.hosain@chmail.ir"
+            "name": "hossein abaei",
+            "email": "hossein142001@gmail.com"
         }
     ],
     "autoload": {
 		"psr-4": {
-			"mhfeizi\\yii2IranianNationalCodeValidator\\": ""
+			"whc-projects\\yii2IranianNationalCodeValidator\\": ""
 		}
 	},
     "license": "LGPL"
